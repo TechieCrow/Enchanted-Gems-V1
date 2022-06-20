@@ -20,6 +20,7 @@ import net.minecraft.core.Holder;
 import net.mcreator.enchantedgems.world.features.ores.TurquoiseOreFeature;
 import net.mcreator.enchantedgems.world.features.ores.TigersEyeOreFeature;
 import net.mcreator.enchantedgems.world.features.ores.SapphireOreFeature;
+import net.mcreator.enchantedgems.world.features.ores.RubyOreFeature;
 import net.mcreator.enchantedgems.world.features.ores.OpalOreFeature;
 import net.mcreator.enchantedgems.world.features.ores.BloodstoneOreFeature;
 import net.mcreator.enchantedgems.EnchantedGemsMod;
@@ -43,6 +44,8 @@ public class EnchantedGemsModFeatures {
 			GenerationStep.Decoration.UNDERGROUND_ORES, TurquoiseOreFeature.GENERATE_BIOMES, TurquoiseOreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> SAPPHIRE_ORE = register("sapphire_ore", SapphireOreFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.UNDERGROUND_ORES, SapphireOreFeature.GENERATE_BIOMES, SapphireOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> RUBY_ORE = register("ruby_ore", RubyOreFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, RubyOreFeature.GENERATE_BIOMES, RubyOreFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);
