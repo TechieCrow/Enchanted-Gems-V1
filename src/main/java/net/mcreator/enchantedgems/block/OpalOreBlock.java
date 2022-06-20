@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class OpalOreBlock extends Block {
 	public OpalOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(2f, 0.75f).requiresCorrectToolForDrops());
 	}
 
 	@Override

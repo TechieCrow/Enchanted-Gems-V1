@@ -2,7 +2,7 @@
   "_fv": 28,
   "_type": "block",
   "definition": {
-    "texture": "opalblock",
+    "texture": "turquoisepolishedblock",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -32,10 +32,10 @@
         "subtract": false
       }
     ],
-    "name": "Opal Block",
+    "name": "Turquoise Polished Block",
     "specialInfo": [],
-    "hardness": 2.0,
-    "resistance": 0.75,
+    "hardness": 2.2,
+    "resistance": 1.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {

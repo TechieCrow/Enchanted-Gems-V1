@@ -170,6 +170,60 @@
       "locked_code": false,
       "registry_name": "tigers_eye_polished_block_recipe",
       "path": "~/Recipes"
+    },
+    {
+      "name": "TurquoiseOre",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turquoise_ore",
+      "path": "~/Ores"
+    },
+    {
+      "name": "TurquoiseBlock",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turquoise_block",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "TurquoisePolishedBlock",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turquoise_polished_block",
+      "path": "~/Polished Blocks"
+    },
+    {
+      "name": "TurquoiseGem",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turquoise_gem",
+      "path": "~/Gems"
+    },
+    {
+      "name": "TurquoiseBlockRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turquoise_block_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "TurquoisePolishedBlockRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turquoise_polished_block_recipe",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -178,8 +232,10 @@
     "en_us": {
       "block.enchanted_gems.tigers_eye_polished_block": "Tigers Eye Polished Block",
       "block.enchanted_gems.opal_block": "Opal Block",
-      "item.enchanted_gems.tigers_eye_gem": "Tiger\u0027s Eye Gem",
+      "block.enchanted_gems.turquoise_ore": "Turquoise Ore",
+      "block.enchanted_gems.turquoise_polished_block": "Turquoise Polished Block",
       "block.enchanted_gems.opal_ore": "Opal Ore",
+      "item.enchanted_gems.tigers_eye_gem": "Tiger\u0027s Eye Gem",
       "block.enchanted_gems.bloodstone_block": "Bloodstone Block",
       "item.enchanted_gems.bloodstone_gem": "Bloodstone Gem",
       "block.enchanted_gems.bloodstone_polished_block": "Bloodstone Polished Block",
@@ -188,6 +244,8 @@
       "block.enchanted_gems.opal_polished_block": "Opal Polished Block",
       "itemGroup.tabenchanting_gems_creative_tab": "Enchanting Gems",
       "block.enchanted_gems.tigers_eye_block": "Tiger\u0027s Eye Block",
+      "item.enchanted_gems.turquoise_gem": "Turquoise Gem",
+      "block.enchanted_gems.turquoise_block": "Turquoise Block",
       "item.enchanted_gems.opal_gem": "Opal Gem"
     }
   },

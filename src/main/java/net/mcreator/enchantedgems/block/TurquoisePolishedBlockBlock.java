@@ -16,9 +16,9 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
-public class OpalBlockBlock extends Block {
-	public OpalBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(2f, 0.75f).requiresCorrectToolForDrops());
+public class TurquoisePolishedBlockBlock extends Block {
+	public TurquoisePolishedBlockBlock() {
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(2.2f, 1f).requiresCorrectToolForDrops());
 	}
 
 	@Override

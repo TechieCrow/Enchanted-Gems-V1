@@ -17,6 +17,7 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
+import net.mcreator.enchantedgems.world.features.ores.TurquoiseOreFeature;
 import net.mcreator.enchantedgems.world.features.ores.TigersEyeOreFeature;
 import net.mcreator.enchantedgems.world.features.ores.OpalOreFeature;
 import net.mcreator.enchantedgems.world.features.ores.BloodstoneOreFeature;
@@ -37,6 +38,8 @@ public class EnchantedGemsModFeatures {
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, OpalOreFeature.GENERATE_BIOMES, OpalOreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> BLOODSTONE_ORE = register("bloodstone_ore", BloodstoneOreFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.UNDERGROUND_ORES, BloodstoneOreFeature.GENERATE_BIOMES, BloodstoneOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> TURQUOISE_ORE = register("turquoise_ore", TurquoiseOreFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.UNDERGROUND_ORES, TurquoiseOreFeature.GENERATE_BIOMES, TurquoiseOreFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

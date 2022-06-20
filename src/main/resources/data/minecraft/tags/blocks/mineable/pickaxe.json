@@ -8,6 +8,9 @@
     "enchanted_gems:bloodstone_block",
     "enchanted_gems:tigers_eye_polished_block",
     "enchanted_gems:opal_polished_block",
-    "enchanted_gems:bloodstone_polished_block"
+    "enchanted_gems:bloodstone_polished_block",
+    "enchanted_gems:turquoise_ore",
+    "enchanted_gems:turquoise_block",
+    "enchanted_gems:turquoise_polished_block"
   ]
 }

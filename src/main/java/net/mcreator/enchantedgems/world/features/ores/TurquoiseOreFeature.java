@@ -36,16 +36,16 @@ import java.util.Set;
 import java.util.Random;
 import java.util.List;
 
-public class BloodstoneOreFeature extends OreFeature {
-	public static BloodstoneOreFeature FEATURE = null;
+public class TurquoiseOreFeature extends OreFeature {
+	public static TurquoiseOreFeature FEATURE = null;
 	public static Holder<ConfiguredFeature<OreConfiguration, ?>> CONFIGURED_FEATURE = null;
 	public static Holder<PlacedFeature> PLACED_FEATURE = null;
 
 	public static Feature<?> feature() {
-		FEATURE = new BloodstoneOreFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("enchanted_gems:bloodstone_ore", FEATURE,
-				new OreConfiguration(BloodstoneOreFeatureRuleTest.INSTANCE, EnchantedGemsModBlocks.BLOODSTONE_ORE.get().defaultBlockState(), 16));
-		PLACED_FEATURE = PlacementUtils.register("enchanted_gems:bloodstone_ore", CONFIGURED_FEATURE,
+		FEATURE = new TurquoiseOreFeature();
+		CONFIGURED_FEATURE = FeatureUtils.register("enchanted_gems:turquoise_ore", FEATURE,
+				new OreConfiguration(TurquoiseOreFeatureRuleTest.INSTANCE, EnchantedGemsModBlocks.TURQUOISE_ORE.get().defaultBlockState(), 16));
+		PLACED_FEATURE = PlacementUtils.register("enchanted_gems:turquoise_ore", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(10), InSquarePlacement.spread(),
 						HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(64)), BiomeFilter.biome()));
 		return FEATURE;
@@ -55,11 +55,10 @@ public class BloodstoneOreFeature extends OreFeature {
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("badlands"), new ResourceLocation("savanna"),
-			new ResourceLocation("desert"), new ResourceLocation("eroded_badlands"));
+	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("sunflower_plains"), new ResourceLocation("plains"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 
-	public BloodstoneOreFeature() {
+	public TurquoiseOreFeature() {
 		super(OreConfiguration.CODEC);
 	}
 
@@ -71,14 +70,14 @@ public class BloodstoneOreFeature extends OreFeature {
 	}
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-	private static class BloodstoneOreFeatureRuleTest extends RuleTest {
-		static final BloodstoneOreFeatureRuleTest INSTANCE = new BloodstoneOreFeatureRuleTest();
-		private static final com.mojang.serialization.Codec<BloodstoneOreFeatureRuleTest> CODEC = com.mojang.serialization.Codec.unit(() -> INSTANCE);
-		private static final RuleTestType<BloodstoneOreFeatureRuleTest> CUSTOM_MATCH = () -> CODEC;
+	private static class TurquoiseOreFeatureRuleTest extends RuleTest {
+		static final TurquoiseOreFeatureRuleTest INSTANCE = new TurquoiseOreFeatureRuleTest();
+		private static final com.mojang.serialization.Codec<TurquoiseOreFeatureRuleTest> CODEC = com.mojang.serialization.Codec.unit(() -> INSTANCE);
+		private static final RuleTestType<TurquoiseOreFeatureRuleTest> CUSTOM_MATCH = () -> CODEC;
 
 		@SubscribeEvent
 		public static void init(FMLCommonSetupEvent event) {
-			Registry.register(Registry.RULE_TEST, new ResourceLocation("enchanted_gems:bloodstone_ore_match"), CUSTOM_MATCH);
+			Registry.register(Registry.RULE_TEST, new ResourceLocation("enchanted_gems:turquoise_ore_match"), CUSTOM_MATCH);
 		}
 
 		private List<Block> base_blocks = null;

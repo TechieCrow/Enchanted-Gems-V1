@@ -10,6 +10,9 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.enchantedgems.block.TurquoisePolishedBlockBlock;
+import net.mcreator.enchantedgems.block.TurquoiseOreBlock;
+import net.mcreator.enchantedgems.block.TurquoiseBlockBlock;
 import net.mcreator.enchantedgems.block.TigersEyePolishedBlockBlock;
 import net.mcreator.enchantedgems.block.TigersEyeOreBlock;
 import net.mcreator.enchantedgems.block.TigersEyeBlockBlock;
@@ -34,4 +37,8 @@ public class EnchantedGemsModBlocks {
 	public static final RegistryObject<Block> OPAL_POLISHED_BLOCK = REGISTRY.register("opal_polished_block", () -> new OpalPolishedBlockBlock());
 	public static final RegistryObject<Block> BLOODSTONE_POLISHED_BLOCK = REGISTRY.register("bloodstone_polished_block",
 			() -> new BloodstonePolishedBlockBlock());
+	public static final RegistryObject<Block> TURQUOISE_ORE = REGISTRY.register("turquoise_ore", () -> new TurquoiseOreBlock());
+	public static final RegistryObject<Block> TURQUOISE_BLOCK = REGISTRY.register("turquoise_block", () -> new TurquoiseBlockBlock());
+	public static final RegistryObject<Block> TURQUOISE_POLISHED_BLOCK = REGISTRY.register("turquoise_polished_block",
+			() -> new TurquoisePolishedBlockBlock());
 }

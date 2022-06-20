@@ -34,8 +34,8 @@
     ],
     "name": "Bloodstone Block",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 2.45,
+    "resistance": 1.5,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {

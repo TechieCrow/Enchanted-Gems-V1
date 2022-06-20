@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.enchantedgems.item.TurquoiseGemItem;
 import net.mcreator.enchantedgems.item.TigersEyeGemItem;
 import net.mcreator.enchantedgems.item.OpalGemItem;
 import net.mcreator.enchantedgems.item.BloodstoneGemItem;
@@ -40,6 +41,13 @@ public class EnchantedGemsModItems {
 			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
 	public static final RegistryObject<Item> BLOODSTONE_POLISHED_BLOCK = block(EnchantedGemsModBlocks.BLOODSTONE_POLISHED_BLOCK,
 			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
+	public static final RegistryObject<Item> TURQUOISE_ORE = block(EnchantedGemsModBlocks.TURQUOISE_ORE,
+			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
+	public static final RegistryObject<Item> TURQUOISE_BLOCK = block(EnchantedGemsModBlocks.TURQUOISE_BLOCK,
+			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
+	public static final RegistryObject<Item> TURQUOISE_POLISHED_BLOCK = block(EnchantedGemsModBlocks.TURQUOISE_POLISHED_BLOCK,
+			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
+	public static final RegistryObject<Item> TURQUOISE_GEM = REGISTRY.register("turquoise_gem", () -> new TurquoiseGemItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

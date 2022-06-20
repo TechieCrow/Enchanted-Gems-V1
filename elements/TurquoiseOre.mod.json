@@ -2,7 +2,7 @@
   "_fv": 28,
   "_type": "block",
   "definition": {
-    "texture": "opalblock",
+    "texture": "turquoiseore",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -32,10 +32,10 @@
         "subtract": false
       }
     ],
-    "name": "Opal Block",
+    "name": "Turquoise Ore",
     "specialInfo": [],
-    "hardness": 2.0,
-    "resistance": 0.75,
+    "hardness": 2.2,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -121,8 +121,17 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "plains"
+      },
+      {
+        "value": "mutated_plains"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
