@@ -24,6 +24,8 @@ import net.mcreator.enchantedgems.item.MoonstoneGemItem;
 import net.mcreator.enchantedgems.item.JadeGemItem;
 import net.mcreator.enchantedgems.item.BloodstoneGemItem;
 import net.mcreator.enchantedgems.item.AquamarineGemItem;
+import net.mcreator.enchantedgems.item.AmberMosquitoGemItem;
+import net.mcreator.enchantedgems.item.AmberGemItem;
 import net.mcreator.enchantedgems.EnchantedGemsMod;
 
 public class EnchantedGemsModItems {
@@ -97,6 +99,8 @@ public class EnchantedGemsModItems {
 	public static final RegistryObject<Item> AQUAMARINE_POLISHED_BLOCK = block(EnchantedGemsModBlocks.AQUAMARINE_POLISHED_BLOCK,
 			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
 	public static final RegistryObject<Item> AQUAMARINE_GEM = REGISTRY.register("aquamarine_gem", () -> new AquamarineGemItem());
+	public static final RegistryObject<Item> AMBER_MOSQUITO_GEM = REGISTRY.register("amber_mosquito_gem", () -> new AmberMosquitoGemItem());
+	public static final RegistryObject<Item> AMBER_GEM = REGISTRY.register("amber_gem", () -> new AmberGemItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
