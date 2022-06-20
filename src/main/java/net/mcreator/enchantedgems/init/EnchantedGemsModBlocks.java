@@ -16,6 +16,9 @@ import net.mcreator.enchantedgems.block.TurquoiseBlockBlock;
 import net.mcreator.enchantedgems.block.TigersEyePolishedBlockBlock;
 import net.mcreator.enchantedgems.block.TigersEyeOreBlock;
 import net.mcreator.enchantedgems.block.TigersEyeBlockBlock;
+import net.mcreator.enchantedgems.block.SapphirePolishedBlockBlock;
+import net.mcreator.enchantedgems.block.SapphireOreBlock;
+import net.mcreator.enchantedgems.block.SapphireBlockBlock;
 import net.mcreator.enchantedgems.block.OpalPolishedBlockBlock;
 import net.mcreator.enchantedgems.block.OpalOreBlock;
 import net.mcreator.enchantedgems.block.OpalBlockBlock;
@@ -41,4 +44,8 @@ public class EnchantedGemsModBlocks {
 	public static final RegistryObject<Block> TURQUOISE_BLOCK = REGISTRY.register("turquoise_block", () -> new TurquoiseBlockBlock());
 	public static final RegistryObject<Block> TURQUOISE_POLISHED_BLOCK = REGISTRY.register("turquoise_polished_block",
 			() -> new TurquoisePolishedBlockBlock());
+	public static final RegistryObject<Block> SAPPHIRE_ORE = REGISTRY.register("sapphire_ore", () -> new SapphireOreBlock());
+	public static final RegistryObject<Block> SAPPHIRE_BLOCK = REGISTRY.register("sapphire_block", () -> new SapphireBlockBlock());
+	public static final RegistryObject<Block> SAPPHIRE_POLISHED_BLOCK = REGISTRY.register("sapphire_polished_block",
+			() -> new SapphirePolishedBlockBlock());
 }

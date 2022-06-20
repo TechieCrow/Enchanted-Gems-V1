@@ -11,6 +11,9 @@
     "enchanted_gems:bloodstone_polished_block",
     "enchanted_gems:turquoise_ore",
     "enchanted_gems:turquoise_block",
-    "enchanted_gems:turquoise_polished_block"
+    "enchanted_gems:turquoise_polished_block",
+    "enchanted_gems:sapphire_ore",
+    "enchanted_gems:sapphire_block",
+    "enchanted_gems:sapphire_polished_block"
   ]
 }
