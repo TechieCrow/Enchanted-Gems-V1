@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.enchantedgems.item.TigersEyeGemItem;
 import net.mcreator.enchantedgems.item.OpalGemItem;
+import net.mcreator.enchantedgems.item.BloodstoneGemItem;
 import net.mcreator.enchantedgems.EnchantedGemsMod;
 
 public class EnchantedGemsModItems {
@@ -28,6 +29,11 @@ public class EnchantedGemsModItems {
 	public static final RegistryObject<Item> OPAL_BLOCK = block(EnchantedGemsModBlocks.OPAL_BLOCK,
 			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
 	public static final RegistryObject<Item> OPAL_GEM = REGISTRY.register("opal_gem", () -> new OpalGemItem());
+	public static final RegistryObject<Item> BLOODSTONE_ORE = block(EnchantedGemsModBlocks.BLOODSTONE_ORE,
+			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
+	public static final RegistryObject<Item> BLOODSTONE_BLOCK = block(EnchantedGemsModBlocks.BLOODSTONE_BLOCK,
+			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
+	public static final RegistryObject<Item> BLOODSTONE_GEM = REGISTRY.register("bloodstone_gem", () -> new BloodstoneGemItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
