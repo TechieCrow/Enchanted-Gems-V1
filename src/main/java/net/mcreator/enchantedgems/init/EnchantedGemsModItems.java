@@ -23,6 +23,7 @@ import net.mcreator.enchantedgems.item.OnyxGemItem;
 import net.mcreator.enchantedgems.item.MoonstoneGemItem;
 import net.mcreator.enchantedgems.item.JadeGemItem;
 import net.mcreator.enchantedgems.item.BloodstoneGemItem;
+import net.mcreator.enchantedgems.item.AquamarineGemItem;
 import net.mcreator.enchantedgems.EnchantedGemsMod;
 
 public class EnchantedGemsModItems {
@@ -89,6 +90,13 @@ public class EnchantedGemsModItems {
 	public static final RegistryObject<Item> JADE_POLISHED_BLOCK = block(EnchantedGemsModBlocks.JADE_POLISHED_BLOCK,
 			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
 	public static final RegistryObject<Item> JADE_GEM = REGISTRY.register("jade_gem", () -> new JadeGemItem());
+	public static final RegistryObject<Item> AQUAMARINE_BLOCK = block(EnchantedGemsModBlocks.AQUAMARINE_BLOCK,
+			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
+	public static final RegistryObject<Item> AQUAMARINE_ORE = block(EnchantedGemsModBlocks.AQUAMARINE_ORE,
+			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
+	public static final RegistryObject<Item> AQUAMARINE_POLISHED_BLOCK = block(EnchantedGemsModBlocks.AQUAMARINE_POLISHED_BLOCK,
+			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
+	public static final RegistryObject<Item> AQUAMARINE_GEM = REGISTRY.register("aquamarine_gem", () -> new AquamarineGemItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

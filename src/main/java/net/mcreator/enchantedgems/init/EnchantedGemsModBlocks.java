@@ -38,6 +38,9 @@ import net.mcreator.enchantedgems.block.JadeBlockBlock;
 import net.mcreator.enchantedgems.block.BloodstonePolishedBlockBlock;
 import net.mcreator.enchantedgems.block.BloodstoneOreBlock;
 import net.mcreator.enchantedgems.block.BloodstoneBlockBlock;
+import net.mcreator.enchantedgems.block.AquamarinePolishedBlockBlock;
+import net.mcreator.enchantedgems.block.AquamarineOreBlock;
+import net.mcreator.enchantedgems.block.AquamarineBlockBlock;
 import net.mcreator.enchantedgems.EnchantedGemsMod;
 
 public class EnchantedGemsModBlocks {
@@ -75,4 +78,8 @@ public class EnchantedGemsModBlocks {
 	public static final RegistryObject<Block> JADE_BLOCK = REGISTRY.register("jade_block", () -> new JadeBlockBlock());
 	public static final RegistryObject<Block> JADE_ORE = REGISTRY.register("jade_ore", () -> new JadeOreBlock());
 	public static final RegistryObject<Block> JADE_POLISHED_BLOCK = REGISTRY.register("jade_polished_block", () -> new JadePolishedBlockBlock());
+	public static final RegistryObject<Block> AQUAMARINE_BLOCK = REGISTRY.register("aquamarine_block", () -> new AquamarineBlockBlock());
+	public static final RegistryObject<Block> AQUAMARINE_ORE = REGISTRY.register("aquamarine_ore", () -> new AquamarineOreBlock());
+	public static final RegistryObject<Block> AQUAMARINE_POLISHED_BLOCK = REGISTRY.register("aquamarine_polished_block",
+			() -> new AquamarinePolishedBlockBlock());
 }

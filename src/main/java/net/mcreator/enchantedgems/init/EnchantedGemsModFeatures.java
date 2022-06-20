@@ -26,6 +26,7 @@ import net.mcreator.enchantedgems.world.features.ores.OnyxOreFeature;
 import net.mcreator.enchantedgems.world.features.ores.MoonstoneOreFeature;
 import net.mcreator.enchantedgems.world.features.ores.JadeOreFeature;
 import net.mcreator.enchantedgems.world.features.ores.BloodstoneOreFeature;
+import net.mcreator.enchantedgems.world.features.ores.AquamarineOreFeature;
 import net.mcreator.enchantedgems.EnchantedGemsMod;
 
 import java.util.function.Supplier;
@@ -55,6 +56,8 @@ public class EnchantedGemsModFeatures {
 			GenerationStep.Decoration.UNDERGROUND_ORES, MoonstoneOreFeature.GENERATE_BIOMES, MoonstoneOreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> JADE_ORE = register("jade_ore", JadeOreFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, JadeOreFeature.GENERATE_BIOMES, JadeOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> AQUAMARINE_ORE = register("aquamarine_ore", AquamarineOreFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.UNDERGROUND_ORES, AquamarineOreFeature.GENERATE_BIOMES, AquamarineOreFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

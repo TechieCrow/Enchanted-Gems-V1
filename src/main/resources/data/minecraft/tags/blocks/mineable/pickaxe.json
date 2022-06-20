@@ -26,6 +26,9 @@
     "enchanted_gems:moonstone_polished_block",
     "enchanted_gems:jade_block",
     "enchanted_gems:jade_ore",
-    "enchanted_gems:jade_polished_block"
+    "enchanted_gems:jade_polished_block",
+    "enchanted_gems:aquamarine_block",
+    "enchanted_gems:aquamarine_ore",
+    "enchanted_gems:aquamarine_polished_block"
   ]
 }

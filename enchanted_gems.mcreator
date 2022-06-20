@@ -530,6 +530,60 @@
       "locked_code": false,
       "registry_name": "jade_polished_block_recipe",
       "path": "~/Recipes"
+    },
+    {
+      "name": "AquamarineBlock",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquamarine_block",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AquamarineOre",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquamarine_ore",
+      "path": "~/Ores"
+    },
+    {
+      "name": "AquamarinePolishedBlock",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquamarine_polished_block",
+      "path": "~/Polished Blocks"
+    },
+    {
+      "name": "AquamarineGem",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquamarine_gem",
+      "path": "~/Gems"
+    },
+    {
+      "name": "AquamarineBlockRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquamarine_block_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AquamarinePolishedBlockRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquamarine_polished_block_recipe",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -570,9 +624,13 @@
       "item.enchanted_gems.moonstone_gem": "Moonstone Gem",
       "block.enchanted_gems.jade_ore": "Jade Ore",
       "block.enchanted_gems.tigers_eye_ore": "Tiger\u0027s Eye Ore",
+      "block.enchanted_gems.aquamarine_polished_block": "Aquamarine Polished Block",
       "block.enchanted_gems.sapphire_polished_block": "Sapphire Polished Block",
       "block.enchanted_gems.pearl_block": "Pearl Block",
       "block.enchanted_gems.sapphire_ore": "Sapphire Ore",
+      "item.enchanted_gems.aquamarine_gem": "Aquamarine Gem",
+      "block.enchanted_gems.aquamarine_ore": "Aquamarine Ore",
+      "block.enchanted_gems.aquamarine_block": "Aquamarine Block",
       "item.enchanted_gems.ruby_gem": "Ruby Gem",
       "block.enchanted_gems.turquoise_block": "Turquoise Block"
     }
