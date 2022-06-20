@@ -20,6 +20,8 @@ import net.mcreator.enchantedgems.item.RubyGemItem;
 import net.mcreator.enchantedgems.item.PearlGemItem;
 import net.mcreator.enchantedgems.item.OpalGemItem;
 import net.mcreator.enchantedgems.item.OnyxGemItem;
+import net.mcreator.enchantedgems.item.MoonstoneGemItem;
+import net.mcreator.enchantedgems.item.JadeGemItem;
 import net.mcreator.enchantedgems.item.BloodstoneGemItem;
 import net.mcreator.enchantedgems.EnchantedGemsMod;
 
@@ -74,6 +76,19 @@ public class EnchantedGemsModItems {
 	public static final RegistryObject<Item> ONYX_POLISHED_BLOCK = block(EnchantedGemsModBlocks.ONYX_POLISHED_BLOCK,
 			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
 	public static final RegistryObject<Item> ONYX_GEM = REGISTRY.register("onyx_gem", () -> new OnyxGemItem());
+	public static final RegistryObject<Item> MOONSTONE_BLOCK = block(EnchantedGemsModBlocks.MOONSTONE_BLOCK,
+			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
+	public static final RegistryObject<Item> MOONSTONE_ORE = block(EnchantedGemsModBlocks.MOONSTONE_ORE,
+			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
+	public static final RegistryObject<Item> MOONSTONE_POLISHED_BLOCK = block(EnchantedGemsModBlocks.MOONSTONE_POLISHED_BLOCK,
+			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
+	public static final RegistryObject<Item> MOONSTONE_GEM = REGISTRY.register("moonstone_gem", () -> new MoonstoneGemItem());
+	public static final RegistryObject<Item> JADE_BLOCK = block(EnchantedGemsModBlocks.JADE_BLOCK,
+			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
+	public static final RegistryObject<Item> JADE_ORE = block(EnchantedGemsModBlocks.JADE_ORE, EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
+	public static final RegistryObject<Item> JADE_POLISHED_BLOCK = block(EnchantedGemsModBlocks.JADE_POLISHED_BLOCK,
+			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
+	public static final RegistryObject<Item> JADE_GEM = REGISTRY.register("jade_gem", () -> new JadeGemItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

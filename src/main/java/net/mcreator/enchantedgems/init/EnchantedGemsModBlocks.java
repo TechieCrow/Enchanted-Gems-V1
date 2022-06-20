@@ -29,6 +29,12 @@ import net.mcreator.enchantedgems.block.OpalBlockBlock;
 import net.mcreator.enchantedgems.block.OnyxPolishedBlockBlock;
 import net.mcreator.enchantedgems.block.OnyxOreBlock;
 import net.mcreator.enchantedgems.block.OnyxBlockBlock;
+import net.mcreator.enchantedgems.block.MoonstonePolishedBlockBlock;
+import net.mcreator.enchantedgems.block.MoonstoneOreBlock;
+import net.mcreator.enchantedgems.block.MoonstoneBlockBlock;
+import net.mcreator.enchantedgems.block.JadePolishedBlockBlock;
+import net.mcreator.enchantedgems.block.JadeOreBlock;
+import net.mcreator.enchantedgems.block.JadeBlockBlock;
 import net.mcreator.enchantedgems.block.BloodstonePolishedBlockBlock;
 import net.mcreator.enchantedgems.block.BloodstoneOreBlock;
 import net.mcreator.enchantedgems.block.BloodstoneBlockBlock;
@@ -62,4 +68,11 @@ public class EnchantedGemsModBlocks {
 	public static final RegistryObject<Block> ONYX_BLOCK = REGISTRY.register("onyx_block", () -> new OnyxBlockBlock());
 	public static final RegistryObject<Block> ONYX_ORE = REGISTRY.register("onyx_ore", () -> new OnyxOreBlock());
 	public static final RegistryObject<Block> ONYX_POLISHED_BLOCK = REGISTRY.register("onyx_polished_block", () -> new OnyxPolishedBlockBlock());
+	public static final RegistryObject<Block> MOONSTONE_BLOCK = REGISTRY.register("moonstone_block", () -> new MoonstoneBlockBlock());
+	public static final RegistryObject<Block> MOONSTONE_ORE = REGISTRY.register("moonstone_ore", () -> new MoonstoneOreBlock());
+	public static final RegistryObject<Block> MOONSTONE_POLISHED_BLOCK = REGISTRY.register("moonstone_polished_block",
+			() -> new MoonstonePolishedBlockBlock());
+	public static final RegistryObject<Block> JADE_BLOCK = REGISTRY.register("jade_block", () -> new JadeBlockBlock());
+	public static final RegistryObject<Block> JADE_ORE = REGISTRY.register("jade_ore", () -> new JadeOreBlock());
+	public static final RegistryObject<Block> JADE_POLISHED_BLOCK = REGISTRY.register("jade_polished_block", () -> new JadePolishedBlockBlock());
 }

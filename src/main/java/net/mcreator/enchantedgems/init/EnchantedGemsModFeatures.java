@@ -23,6 +23,8 @@ import net.mcreator.enchantedgems.world.features.ores.SapphireOreFeature;
 import net.mcreator.enchantedgems.world.features.ores.RubyOreFeature;
 import net.mcreator.enchantedgems.world.features.ores.OpalOreFeature;
 import net.mcreator.enchantedgems.world.features.ores.OnyxOreFeature;
+import net.mcreator.enchantedgems.world.features.ores.MoonstoneOreFeature;
+import net.mcreator.enchantedgems.world.features.ores.JadeOreFeature;
 import net.mcreator.enchantedgems.world.features.ores.BloodstoneOreFeature;
 import net.mcreator.enchantedgems.EnchantedGemsMod;
 
@@ -49,6 +51,10 @@ public class EnchantedGemsModFeatures {
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, RubyOreFeature.GENERATE_BIOMES, RubyOreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> ONYX_ORE = register("onyx_ore", OnyxOreFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, OnyxOreFeature.GENERATE_BIOMES, OnyxOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> MOONSTONE_ORE = register("moonstone_ore", MoonstoneOreFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.UNDERGROUND_ORES, MoonstoneOreFeature.GENERATE_BIOMES, MoonstoneOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> JADE_ORE = register("jade_ore", JadeOreFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, JadeOreFeature.GENERATE_BIOMES, JadeOreFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

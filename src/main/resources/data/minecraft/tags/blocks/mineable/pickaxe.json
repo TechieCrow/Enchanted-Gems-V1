@@ -20,6 +20,12 @@
     "enchanted_gems:ruby_polished_block",
     "enchanted_gems:onyx_block",
     "enchanted_gems:onyx_ore",
-    "enchanted_gems:onyx_polished_block"
+    "enchanted_gems:onyx_polished_block",
+    "enchanted_gems:moonstone_block",
+    "enchanted_gems:moonstone_ore",
+    "enchanted_gems:moonstone_polished_block",
+    "enchanted_gems:jade_block",
+    "enchanted_gems:jade_ore",
+    "enchanted_gems:jade_polished_block"
   ]
 }
