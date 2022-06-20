@@ -22,6 +22,7 @@ import net.mcreator.enchantedgems.block.SapphireBlockBlock;
 import net.mcreator.enchantedgems.block.RubyPolishedBlockBlock;
 import net.mcreator.enchantedgems.block.RubyOreBlock;
 import net.mcreator.enchantedgems.block.RubyBlockBlock;
+import net.mcreator.enchantedgems.block.PearlBlockBlock;
 import net.mcreator.enchantedgems.block.OpalPolishedBlockBlock;
 import net.mcreator.enchantedgems.block.OpalOreBlock;
 import net.mcreator.enchantedgems.block.OpalBlockBlock;
@@ -54,4 +55,5 @@ public class EnchantedGemsModBlocks {
 	public static final RegistryObject<Block> RUBY_BLOCK = REGISTRY.register("ruby_block", () -> new RubyBlockBlock());
 	public static final RegistryObject<Block> RUBY_ORE = REGISTRY.register("ruby_ore", () -> new RubyOreBlock());
 	public static final RegistryObject<Block> RUBY_POLISHED_BLOCK = REGISTRY.register("ruby_polished_block", () -> new RubyPolishedBlockBlock());
+	public static final RegistryObject<Block> PEARL_BLOCK = REGISTRY.register("pearl_block", () -> new PearlBlockBlock());
 }

@@ -8,8 +8,8 @@ import net.minecraft.world.item.Item;
 
 import net.mcreator.enchantedgems.init.EnchantedGemsModTabs;
 
-public class RubyGemItem extends Item {
-	public RubyGemItem() {
+public class PearlGemItem extends Item {
+	public PearlGemItem() {
 		super(new Item.Properties().tab(EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB).stacksTo(64).rarity(Rarity.COMMON));
 	}
 

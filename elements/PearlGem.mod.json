@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "rubygem",
+    "texture": "pearlgem",
     "customModelName": "Normal",
-    "name": "Ruby Gem",
+    "name": "Pearl Gem",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:EnchantingGemsCreativeTab"

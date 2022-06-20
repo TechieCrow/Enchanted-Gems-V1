@@ -17,6 +17,7 @@ import net.mcreator.enchantedgems.item.TurquoiseGemItem;
 import net.mcreator.enchantedgems.item.TigersEyeGemItem;
 import net.mcreator.enchantedgems.item.SapphireGemItem;
 import net.mcreator.enchantedgems.item.RubyGemItem;
+import net.mcreator.enchantedgems.item.PearlGemItem;
 import net.mcreator.enchantedgems.item.OpalGemItem;
 import net.mcreator.enchantedgems.item.BloodstoneGemItem;
 import net.mcreator.enchantedgems.EnchantedGemsMod;
@@ -63,6 +64,9 @@ public class EnchantedGemsModItems {
 	public static final RegistryObject<Item> RUBY_POLISHED_BLOCK = block(EnchantedGemsModBlocks.RUBY_POLISHED_BLOCK,
 			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
 	public static final RegistryObject<Item> RUBY_GEM = REGISTRY.register("ruby_gem", () -> new RubyGemItem());
+	public static final RegistryObject<Item> PEARL_BLOCK = block(EnchantedGemsModBlocks.PEARL_BLOCK,
+			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
+	public static final RegistryObject<Item> PEARL_GEM = REGISTRY.register("pearl_gem", () -> new PearlGemItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
