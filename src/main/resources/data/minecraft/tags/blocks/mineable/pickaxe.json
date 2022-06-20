@@ -17,6 +17,9 @@
     "enchanted_gems:sapphire_polished_block",
     "enchanted_gems:ruby_block",
     "enchanted_gems:ruby_ore",
-    "enchanted_gems:ruby_polished_block"
+    "enchanted_gems:ruby_polished_block",
+    "enchanted_gems:onyx_block",
+    "enchanted_gems:onyx_ore",
+    "enchanted_gems:onyx_polished_block"
   ]
 }

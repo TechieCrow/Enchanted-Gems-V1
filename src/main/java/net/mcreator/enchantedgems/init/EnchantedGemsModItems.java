@@ -19,6 +19,7 @@ import net.mcreator.enchantedgems.item.SapphireGemItem;
 import net.mcreator.enchantedgems.item.RubyGemItem;
 import net.mcreator.enchantedgems.item.PearlGemItem;
 import net.mcreator.enchantedgems.item.OpalGemItem;
+import net.mcreator.enchantedgems.item.OnyxGemItem;
 import net.mcreator.enchantedgems.item.BloodstoneGemItem;
 import net.mcreator.enchantedgems.EnchantedGemsMod;
 
@@ -67,6 +68,12 @@ public class EnchantedGemsModItems {
 	public static final RegistryObject<Item> PEARL_BLOCK = block(EnchantedGemsModBlocks.PEARL_BLOCK,
 			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
 	public static final RegistryObject<Item> PEARL_GEM = REGISTRY.register("pearl_gem", () -> new PearlGemItem());
+	public static final RegistryObject<Item> ONYX_BLOCK = block(EnchantedGemsModBlocks.ONYX_BLOCK,
+			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
+	public static final RegistryObject<Item> ONYX_ORE = block(EnchantedGemsModBlocks.ONYX_ORE, EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
+	public static final RegistryObject<Item> ONYX_POLISHED_BLOCK = block(EnchantedGemsModBlocks.ONYX_POLISHED_BLOCK,
+			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
+	public static final RegistryObject<Item> ONYX_GEM = REGISTRY.register("onyx_gem", () -> new OnyxGemItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

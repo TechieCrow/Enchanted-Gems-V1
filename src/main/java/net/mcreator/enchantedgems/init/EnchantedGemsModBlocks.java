@@ -26,6 +26,9 @@ import net.mcreator.enchantedgems.block.PearlBlockBlock;
 import net.mcreator.enchantedgems.block.OpalPolishedBlockBlock;
 import net.mcreator.enchantedgems.block.OpalOreBlock;
 import net.mcreator.enchantedgems.block.OpalBlockBlock;
+import net.mcreator.enchantedgems.block.OnyxPolishedBlockBlock;
+import net.mcreator.enchantedgems.block.OnyxOreBlock;
+import net.mcreator.enchantedgems.block.OnyxBlockBlock;
 import net.mcreator.enchantedgems.block.BloodstonePolishedBlockBlock;
 import net.mcreator.enchantedgems.block.BloodstoneOreBlock;
 import net.mcreator.enchantedgems.block.BloodstoneBlockBlock;
@@ -56,4 +59,7 @@ public class EnchantedGemsModBlocks {
 	public static final RegistryObject<Block> RUBY_ORE = REGISTRY.register("ruby_ore", () -> new RubyOreBlock());
 	public static final RegistryObject<Block> RUBY_POLISHED_BLOCK = REGISTRY.register("ruby_polished_block", () -> new RubyPolishedBlockBlock());
 	public static final RegistryObject<Block> PEARL_BLOCK = REGISTRY.register("pearl_block", () -> new PearlBlockBlock());
+	public static final RegistryObject<Block> ONYX_BLOCK = REGISTRY.register("onyx_block", () -> new OnyxBlockBlock());
+	public static final RegistryObject<Block> ONYX_ORE = REGISTRY.register("onyx_ore", () -> new OnyxOreBlock());
+	public static final RegistryObject<Block> ONYX_POLISHED_BLOCK = REGISTRY.register("onyx_polished_block", () -> new OnyxPolishedBlockBlock());
 }

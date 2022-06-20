@@ -368,6 +368,60 @@
       "locked_code": false,
       "registry_name": "pearl_loot_table",
       "path": "~/Loot Tables"
+    },
+    {
+      "name": "OnyxBlock",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_block",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "OnyxOre",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_ore",
+      "path": "~/Ores"
+    },
+    {
+      "name": "OnyxPolishedBlock",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_polished_block",
+      "path": "~/Polished Blocks"
+    },
+    {
+      "name": "OnyxGem",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_gem",
+      "path": "~/Gems"
+    },
+    {
+      "name": "OnyxBlockRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_block_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "OnyxPolishedBlockRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_polished_block_recipe",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -375,15 +429,19 @@
   "language_map": {
     "en_us": {
       "block.enchanted_gems.tigers_eye_polished_block": "Tigers Eye Polished Block",
+      "block.enchanted_gems.onyx_polished_block": "Onyx Polished Block",
       "block.enchanted_gems.turquoise_ore": "Turquoise Ore",
       "block.enchanted_gems.turquoise_polished_block": "Turquoise Polished Block",
       "item.enchanted_gems.tigers_eye_gem": "Tiger\u0027s Eye Gem",
       "block.enchanted_gems.bloodstone_block": "Bloodstone Block",
       "block.enchanted_gems.bloodstone_ore": "Bloodstone Ore",
       "block.enchanted_gems.opal_polished_block": "Opal Polished Block",
+      "block.enchanted_gems.onyx_ore": "Onyx Ore",
       "itemGroup.tabenchanting_gems_creative_tab": "Enchanting Gems",
+      "block.enchanted_gems.onyx_block": "Onyx Block",
       "block.enchanted_gems.ruby_ore": "Ruby Ore",
       "block.enchanted_gems.tigers_eye_block": "Tiger\u0027s Eye Block",
+      "item.enchanted_gems.onyx_gem": "Onyx Gem",
       "item.enchanted_gems.turquoise_gem": "Turquoise Gem",
       "block.enchanted_gems.sapphire_block": "Sapphire Block",
       "item.enchanted_gems.opal_gem": "Opal Gem",
