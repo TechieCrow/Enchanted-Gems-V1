@@ -10,10 +10,13 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.enchantedgems.block.TigersEyePolishedBlockBlock;
 import net.mcreator.enchantedgems.block.TigersEyeOreBlock;
 import net.mcreator.enchantedgems.block.TigersEyeBlockBlock;
+import net.mcreator.enchantedgems.block.OpalPolishedBlockBlock;
 import net.mcreator.enchantedgems.block.OpalOreBlock;
 import net.mcreator.enchantedgems.block.OpalBlockBlock;
+import net.mcreator.enchantedgems.block.BloodstonePolishedBlockBlock;
 import net.mcreator.enchantedgems.block.BloodstoneOreBlock;
 import net.mcreator.enchantedgems.block.BloodstoneBlockBlock;
 import net.mcreator.enchantedgems.EnchantedGemsMod;
@@ -26,4 +29,9 @@ public class EnchantedGemsModBlocks {
 	public static final RegistryObject<Block> OPAL_BLOCK = REGISTRY.register("opal_block", () -> new OpalBlockBlock());
 	public static final RegistryObject<Block> BLOODSTONE_ORE = REGISTRY.register("bloodstone_ore", () -> new BloodstoneOreBlock());
 	public static final RegistryObject<Block> BLOODSTONE_BLOCK = REGISTRY.register("bloodstone_block", () -> new BloodstoneBlockBlock());
+	public static final RegistryObject<Block> TIGERS_EYE_POLISHED_BLOCK = REGISTRY.register("tigers_eye_polished_block",
+			() -> new TigersEyePolishedBlockBlock());
+	public static final RegistryObject<Block> OPAL_POLISHED_BLOCK = REGISTRY.register("opal_polished_block", () -> new OpalPolishedBlockBlock());
+	public static final RegistryObject<Block> BLOODSTONE_POLISHED_BLOCK = REGISTRY.register("bloodstone_polished_block",
+			() -> new BloodstonePolishedBlockBlock());
 }

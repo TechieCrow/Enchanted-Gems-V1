@@ -2,7 +2,7 @@
   "_fv": 28,
   "_type": "block",
   "definition": {
-    "texture": "oretigerseye",
+    "texture": "pink",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Tiger's Eye Ore",
+    "name": "Tigers Eye Polished Block",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -41,9 +41,9 @@
     "creativeTab": {
       "value": "CUSTOM:EnchantingGemsCreativeTab"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:TigersEyeGem"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -121,9 +121,7 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "enchanted_gems:bloodstone_block"
+  },
+  "result": "enchanted_gems:bloodstone_polished_block"
+}
