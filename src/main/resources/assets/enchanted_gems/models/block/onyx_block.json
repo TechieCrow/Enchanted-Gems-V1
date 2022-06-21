@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "enchanted_gems:blocks/onyxblock",
-    "particle": "enchanted_gems:blocks/onyxblock"
+    "all": "enchanted_gems:blocks/block.onyx",
+    "particle": "enchanted_gems:blocks/block.onyx"
   }
 }

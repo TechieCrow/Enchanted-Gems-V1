@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "enchanted_gems:blocks/jadeblock",
-    "particle": "enchanted_gems:blocks/jadeblock"
+    "all": "enchanted_gems:blocks/new",
+    "particle": "enchanted_gems:blocks/new"
   }
 }

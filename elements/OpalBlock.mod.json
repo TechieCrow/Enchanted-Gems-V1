@@ -2,7 +2,7 @@
   "_fv": 28,
   "_type": "block",
   "definition": {
-    "texture": "opalblock",
+    "texture": "block.opal",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -34,8 +34,8 @@
     ],
     "name": "Opal Block",
     "specialInfo": [],
-    "hardness": 2.0,
-    "resistance": 0.75,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {

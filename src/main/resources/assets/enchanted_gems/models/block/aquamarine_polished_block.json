@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "enchanted_gems:blocks/pink",
-    "particle": "enchanted_gems:blocks/pink"
+    "all": "enchanted_gems:blocks/aquamarineblock",
+    "particle": "enchanted_gems:blocks/aquamarineblock"
   }
 }
