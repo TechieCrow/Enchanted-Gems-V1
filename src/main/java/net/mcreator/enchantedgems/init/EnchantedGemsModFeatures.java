@@ -19,6 +19,7 @@ import net.minecraft.core.Holder;
 
 import net.mcreator.enchantedgems.world.features.ores.TigersEyeOreFeature;
 import net.mcreator.enchantedgems.world.features.ores.OpalOreFeature;
+import net.mcreator.enchantedgems.world.features.ores.BloodstoneOreFeature;
 import net.mcreator.enchantedgems.EnchantedGemsMod;
 
 import java.util.function.Supplier;
@@ -34,6 +35,8 @@ public class EnchantedGemsModFeatures {
 			GenerationStep.Decoration.UNDERGROUND_ORES, TigersEyeOreFeature.GENERATE_BIOMES, TigersEyeOreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> OPAL_ORE = register("opal_ore", OpalOreFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, OpalOreFeature.GENERATE_BIOMES, OpalOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> BLOODSTONE_ORE = register("bloodstone_ore", BloodstoneOreFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.UNDERGROUND_ORES, BloodstoneOreFeature.GENERATE_BIOMES, BloodstoneOreFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);
