@@ -34,8 +34,8 @@
     ],
     "name": "Bloodstone Ore",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 2.45,
+    "resistance": 1.5,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -43,7 +43,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:BloodstoneGem"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -124,7 +124,23 @@
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "badlands"
+      },
+      {
+        "value": "desert_hills"
+      },
+      {
+        "value": "mutated_desert"
+      },
+      {
+        "value": "mutated_mesa"
+      },
+      {
+        "value": "savanna"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"

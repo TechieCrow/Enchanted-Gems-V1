@@ -8,7 +8,7 @@
     "name": "Bloodstone Gem",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:EnchantingGemsCreativeTab"
     },
     "stackSize": 64,
     "enchantability": 0,

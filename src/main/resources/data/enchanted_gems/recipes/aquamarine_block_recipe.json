@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "enchanted_gems:aquamarine_gem"
+    },
+    "1": {
+      "item": "enchanted_gems:aquamarine_gem"
+    },
+    "2": {
+      "item": "enchanted_gems:aquamarine_gem"
+    },
+    "3": {
+      "item": "enchanted_gems:aquamarine_gem"
+    },
+    "4": {
+      "item": "enchanted_gems:aquamarine_gem"
+    },
+    "5": {
+      "item": "enchanted_gems:aquamarine_gem"
+    },
+    "6": {
+      "item": "enchanted_gems:aquamarine_gem"
+    },
+    "7": {
+      "item": "enchanted_gems:aquamarine_gem"
+    },
+    "8": {
+      "item": "enchanted_gems:aquamarine_gem"
+    }
+  },
+  "result": {
+    "item": "enchanted_gems:aquamarine_block",
+    "count": 1
+  }
+}

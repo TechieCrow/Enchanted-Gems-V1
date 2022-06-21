@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class TigersEyeBlockBlock extends Block {
 	public TigersEyeBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(2.45f, 2f).requiresCorrectToolForDrops());
 	}
 
 	@Override

@@ -34,8 +34,8 @@
     ],
     "name": "Opal Block",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 2.0,
+    "resistance": 0.75,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {

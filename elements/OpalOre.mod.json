@@ -34,8 +34,8 @@
     ],
     "name": "Opal Ore",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 2.0,
+    "resistance": 0.75,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -43,7 +43,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:OpalGem"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -124,7 +124,14 @@
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "badlands"
+      },
+      {
+        "value": "badlands_plateau"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"

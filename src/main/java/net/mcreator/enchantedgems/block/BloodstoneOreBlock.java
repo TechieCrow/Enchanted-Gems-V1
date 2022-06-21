@@ -13,12 +13,14 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.enchantedgems.init.EnchantedGemsModItems;
+
 import java.util.List;
 import java.util.Collections;
 
 public class BloodstoneOreBlock extends Block {
 	public BloodstoneOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(2.45f, 1.5f).requiresCorrectToolForDrops());
 	}
 
 	@Override
@@ -38,6 +40,6 @@ public class BloodstoneOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(EnchantedGemsModItems.BLOODSTONE_GEM.get()));
 	}
 }

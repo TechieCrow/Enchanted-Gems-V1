@@ -55,7 +55,8 @@ public class BloodstoneOreFeature extends OreFeature {
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
+	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("badlands"), new ResourceLocation("savanna"),
+			new ResourceLocation("desert"), new ResourceLocation("eroded_badlands"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 
 	public BloodstoneOreFeature() {

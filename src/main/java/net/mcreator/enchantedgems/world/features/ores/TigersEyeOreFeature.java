@@ -55,7 +55,8 @@ public class TigersEyeOreFeature extends OreFeature {
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
+	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("savanna_plateau"), new ResourceLocation("savanna"),
+			new ResourceLocation("windswept_savanna"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 
 	public TigersEyeOreFeature() {
