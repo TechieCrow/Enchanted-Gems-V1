@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "enchanted_gems:items/ambermosquitogem"
+    "layer0": "enchanted_gems:items/item.amber.bug"
   }
 }

@@ -7,6 +7,10 @@ package net.mcreator.enchantedgems.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
@@ -23,6 +27,7 @@ import net.mcreator.enchantedgems.block.RubyPolishedBlockBlock;
 import net.mcreator.enchantedgems.block.RubyOreBlock;
 import net.mcreator.enchantedgems.block.RubyBlockBlock;
 import net.mcreator.enchantedgems.block.PearlBlockBlock;
+import net.mcreator.enchantedgems.block.PearlBlock;
 import net.mcreator.enchantedgems.block.OpalPolishedBlockBlock;
 import net.mcreator.enchantedgems.block.OpalOreBlock;
 import net.mcreator.enchantedgems.block.OpalBlockBlock;
@@ -41,6 +46,10 @@ import net.mcreator.enchantedgems.block.BloodstoneBlockBlock;
 import net.mcreator.enchantedgems.block.AquamarinePolishedBlockBlock;
 import net.mcreator.enchantedgems.block.AquamarineOreBlock;
 import net.mcreator.enchantedgems.block.AquamarineBlockBlock;
+import net.mcreator.enchantedgems.block.AmberPolishedBlockBlock;
+import net.mcreator.enchantedgems.block.AmberOreBlock;
+import net.mcreator.enchantedgems.block.AmberBlockMosquitoeBlock;
+import net.mcreator.enchantedgems.block.AmberBlockBlock;
 import net.mcreator.enchantedgems.EnchantedGemsMod;
 
 public class EnchantedGemsModBlocks {
@@ -82,4 +91,22 @@ public class EnchantedGemsModBlocks {
 	public static final RegistryObject<Block> AQUAMARINE_ORE = REGISTRY.register("aquamarine_ore", () -> new AquamarineOreBlock());
 	public static final RegistryObject<Block> AQUAMARINE_POLISHED_BLOCK = REGISTRY.register("aquamarine_polished_block",
 			() -> new AquamarinePolishedBlockBlock());
+	public static final RegistryObject<Block> PEARL = REGISTRY.register("pearl", () -> new PearlBlock());
+	public static final RegistryObject<Block> AMBER_BLOCK = REGISTRY.register("amber_block", () -> new AmberBlockBlock());
+	public static final RegistryObject<Block> AMBER_POLISHED_BLOCK = REGISTRY.register("amber_polished_block", () -> new AmberPolishedBlockBlock());
+	public static final RegistryObject<Block> AMBER_BLOCK_MOSQUITOE = REGISTRY.register("amber_block_mosquitoe",
+			() -> new AmberBlockMosquitoeBlock());
+	public static final RegistryObject<Block> AMBER_ORE = REGISTRY.register("amber_ore", () -> new AmberOreBlock());
+
+	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+	public static class ClientSideHandler {
+		@SubscribeEvent
+		public static void clientSetup(FMLClientSetupEvent event) {
+			MoonstoneBlockBlock.registerRenderLayer();
+			MoonstonePolishedBlockBlock.registerRenderLayer();
+			AmberBlockBlock.registerRenderLayer();
+			AmberPolishedBlockBlock.registerRenderLayer();
+			AmberBlockMosquitoeBlock.registerRenderLayer();
+		}
+	}
 }

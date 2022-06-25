@@ -22,6 +22,7 @@ import net.mcreator.enchantedgems.item.OpalGemItem;
 import net.mcreator.enchantedgems.item.OnyxGemItem;
 import net.mcreator.enchantedgems.item.MoonstoneGemItem;
 import net.mcreator.enchantedgems.item.JadeGemItem;
+import net.mcreator.enchantedgems.item.GeodeItem;
 import net.mcreator.enchantedgems.item.BloodstoneGemItem;
 import net.mcreator.enchantedgems.item.AquamarineGemItem;
 import net.mcreator.enchantedgems.item.AmberMosquitoGemItem;
@@ -101,6 +102,16 @@ public class EnchantedGemsModItems {
 	public static final RegistryObject<Item> AQUAMARINE_GEM = REGISTRY.register("aquamarine_gem", () -> new AquamarineGemItem());
 	public static final RegistryObject<Item> AMBER_MOSQUITO_GEM = REGISTRY.register("amber_mosquito_gem", () -> new AmberMosquitoGemItem());
 	public static final RegistryObject<Item> AMBER_GEM = REGISTRY.register("amber_gem", () -> new AmberGemItem());
+	public static final RegistryObject<Item> PEARL = block(EnchantedGemsModBlocks.PEARL, EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
+	public static final RegistryObject<Item> AMBER_BLOCK = block(EnchantedGemsModBlocks.AMBER_BLOCK,
+			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
+	public static final RegistryObject<Item> AMBER_POLISHED_BLOCK = block(EnchantedGemsModBlocks.AMBER_POLISHED_BLOCK,
+			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
+	public static final RegistryObject<Item> AMBER_BLOCK_MOSQUITOE = block(EnchantedGemsModBlocks.AMBER_BLOCK_MOSQUITOE,
+			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
+	public static final RegistryObject<Item> AMBER_ORE = block(EnchantedGemsModBlocks.AMBER_ORE,
+			EnchantedGemsModTabs.TAB_ENCHANTING_GEMS_CREATIVE_TAB);
+	public static final RegistryObject<Item> GEODE = REGISTRY.register("geode", () -> new GeodeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

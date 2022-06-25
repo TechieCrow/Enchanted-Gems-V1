@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class AquamarineBlockBlock extends Block {
 	public AquamarineBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(2.65f, 1f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(2.65f, 1f).requiresCorrectToolForDrops());
 	}
 
 	@Override

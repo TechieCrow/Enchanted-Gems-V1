@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class JadePolishedBlockBlock extends Block {
 	public JadePolishedBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(2.45f, 1.45f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(2.45f, 1.45f).requiresCorrectToolForDrops());
 	}
 
 	@Override

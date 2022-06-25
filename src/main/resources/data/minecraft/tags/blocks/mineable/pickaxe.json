@@ -29,6 +29,10 @@
     "enchanted_gems:jade_polished_block",
     "enchanted_gems:aquamarine_block",
     "enchanted_gems:aquamarine_ore",
-    "enchanted_gems:aquamarine_polished_block"
+    "enchanted_gems:aquamarine_polished_block",
+    "enchanted_gems:pearl",
+    "enchanted_gems:amber_block",
+    "enchanted_gems:amber_polished_block",
+    "enchanted_gems:amber_ore"
   ]
 }

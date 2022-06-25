@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class BloodstoneBlockBlock extends Block {
 	public BloodstoneBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(2.45f, 1.5f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(2.45f, 1.5f).requiresCorrectToolForDrops());
 	}
 
 	@Override

@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "enchanted_gems:blocks/blocktigerseye",
-    "particle": "enchanted_gems:blocks/blocktigerseye"
+    "all": "enchanted_gems:blocks/block.tigerseye",
+    "particle": "enchanted_gems:blocks/block.tigerseye"
   }
 }

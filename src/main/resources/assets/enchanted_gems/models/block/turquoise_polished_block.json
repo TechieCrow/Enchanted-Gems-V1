@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "enchanted_gems:blocks/turquoisepolishedblock",
-    "particle": "enchanted_gems:blocks/turquoisepolishedblock"
+    "all": "enchanted_gems:blocks/block.turqose.polished",
+    "particle": "enchanted_gems:blocks/block.turqose.polished"
   }
 }

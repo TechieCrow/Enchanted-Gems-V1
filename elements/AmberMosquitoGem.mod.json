@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ambermosquitogem",
+    "texture": "item.amber.bug",
     "customModelName": "Normal",
     "name": "Amber Mosquito Gem",
     "rarity": "COMMON",

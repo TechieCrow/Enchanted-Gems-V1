@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "enchanted_gems:pearl_gem",
+    "enchanted_gems:amber_gem",
+    "enchanted_gems:tigers_eye_gem",
+    "enchanted_gems:bloodstone_gem",
+    "enchanted_gems:turquoise_gem",
+    "enchanted_gems:aquamarine_gem",
+    "enchanted_gems:sapphire_gem",
+    "enchanted_gems:amber_mosquito_gem",
+    "enchanted_gems:jade_gem",
+    "enchanted_gems:ruby_gem",
+    "enchanted_gems:opal_gem",
+    "enchanted_gems:onyx_gem",
+    "enchanted_gems:moonstone_gem"
+  ]
+}

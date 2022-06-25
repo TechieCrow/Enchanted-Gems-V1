@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ambergem",
+    "texture": "item.amber",
     "customModelName": "Normal",
     "name": "Amber Gem",
     "rarity": "COMMON",

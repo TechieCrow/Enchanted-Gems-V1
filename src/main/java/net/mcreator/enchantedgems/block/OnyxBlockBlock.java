@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class OnyxBlockBlock extends Block {
 	public OnyxBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(2.45f, 2f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(2.45f, 2f).requiresCorrectToolForDrops());
 	}
 
 	@Override

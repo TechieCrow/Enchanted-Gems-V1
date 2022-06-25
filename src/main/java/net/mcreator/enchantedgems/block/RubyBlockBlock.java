@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class RubyBlockBlock extends Block {
 	public RubyBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(2.75f, 3f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(2.75f, 3f).requiresCorrectToolForDrops());
 	}
 
 	@Override

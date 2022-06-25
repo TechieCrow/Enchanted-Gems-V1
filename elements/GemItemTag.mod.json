@@ -1,0 +1,53 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:TigersEyeGem"
+      },
+      {
+        "value": "CUSTOM:OpalGem"
+      },
+      {
+        "value": "CUSTOM:BloodstoneGem"
+      },
+      {
+        "value": "CUSTOM:TurquoiseGem"
+      },
+      {
+        "value": "CUSTOM:SapphireGem"
+      },
+      {
+        "value": "CUSTOM:RubyGem"
+      },
+      {
+        "value": "CUSTOM:PearlGem"
+      },
+      {
+        "value": "CUSTOM:OnyxGem"
+      },
+      {
+        "value": "CUSTOM:MoonstoneGem"
+      },
+      {
+        "value": "CUSTOM:JadeGem"
+      },
+      {
+        "value": "CUSTOM:AquamarineGem"
+      },
+      {
+        "value": "CUSTOM:AmberMosquitoGem"
+      },
+      {
+        "value": "CUSTOM:AmberGem"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "gem_item_tag",
+    "namespace": "mod"
+  }
+}

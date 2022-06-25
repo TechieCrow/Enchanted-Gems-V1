@@ -1,0 +1,9 @@
+{
+  "parent": "enchanted_gems:custom/model",
+  "textures": {
+    "all": "enchanted_gems:blocks/bug",
+    "particle": "enchanted_gems:blocks/bug",
+    "3": "enchanted_gems:blocks/block.amber",
+    "4": "enchanted_gems:blocks/bug"
+  }
+}

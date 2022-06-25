@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class TurquoisePolishedBlockBlock extends Block {
 	public TurquoisePolishedBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(2.2f, 1f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(2.2f, 1f).requiresCorrectToolForDrops());
 	}
 
 	@Override
