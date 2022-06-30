@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class OnyxPolishedBlockBlock extends Block {
 	public OnyxPolishedBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(2.45f, 2f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.BONE_BLOCK).strength(2.45f, 2f).requiresCorrectToolForDrops());
 	}
 
 	@Override

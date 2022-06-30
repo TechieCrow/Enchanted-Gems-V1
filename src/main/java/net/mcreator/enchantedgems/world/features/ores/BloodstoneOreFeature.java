@@ -44,10 +44,10 @@ public class BloodstoneOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new BloodstoneOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("enchanted_gems:bloodstone_ore", FEATURE,
-				new OreConfiguration(BloodstoneOreFeatureRuleTest.INSTANCE, EnchantedGemsModBlocks.BLOODSTONE_ORE.get().defaultBlockState(), 16));
+				new OreConfiguration(BloodstoneOreFeatureRuleTest.INSTANCE, EnchantedGemsModBlocks.BLOODSTONE_ORE.get().defaultBlockState(), 2));
 		PLACED_FEATURE = PlacementUtils.register("enchanted_gems:bloodstone_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(10), InSquarePlacement.spread(),
-						HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(64)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(3), InSquarePlacement.spread(),
+						HeightRangePlacement.uniform(VerticalAnchor.absolute(50), VerticalAnchor.absolute(64)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

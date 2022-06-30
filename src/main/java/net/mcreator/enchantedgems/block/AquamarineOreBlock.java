@@ -20,7 +20,7 @@ import java.util.Collections;
 
 public class AquamarineOreBlock extends Block {
 	public AquamarineOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(2.65f, 1f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(2.65f, 1f).requiresCorrectToolForDrops());
 	}
 
 	@Override
@@ -31,7 +31,7 @@ public class AquamarineOreBlock extends Block {
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
 		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 1;
+			return tieredItem.getTier().getLevel() >= 2;
 		return false;
 	}
 

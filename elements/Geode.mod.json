@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "geode",
+    "texture": "new",
     "customModelName": "Normal",
     "name": "Geode",
     "rarity": "UNCOMMON",

@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class PearlBlock extends Block {
 	public PearlBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(0.75f, 1f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.BONE_BLOCK).strength(0.75f, 1f).requiresCorrectToolForDrops());
 	}
 
 	@Override

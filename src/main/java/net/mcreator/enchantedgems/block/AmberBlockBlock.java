@@ -26,8 +26,8 @@ import java.util.Collections;
 
 public class AmberBlockBlock extends Block {
 	public AmberBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(0.75f, 3f).requiresCorrectToolForDrops().friction(0.75f)
-				.noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.BONE_BLOCK).strength(0.75f, 3f).requiresCorrectToolForDrops()
+				.friction(0.75f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override

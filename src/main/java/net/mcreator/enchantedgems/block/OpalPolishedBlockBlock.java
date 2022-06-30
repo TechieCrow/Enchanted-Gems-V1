@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class OpalPolishedBlockBlock extends Block {
 	public OpalPolishedBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(1f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.BONE_BLOCK).strength(1f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override

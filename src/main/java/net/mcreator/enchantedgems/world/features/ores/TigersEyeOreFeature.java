@@ -44,9 +44,9 @@ public class TigersEyeOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new TigersEyeOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("enchanted_gems:tigers_eye_ore", FEATURE,
-				new OreConfiguration(TigersEyeOreFeatureRuleTest.INSTANCE, EnchantedGemsModBlocks.TIGERS_EYE_ORE.get().defaultBlockState(), 16));
+				new OreConfiguration(TigersEyeOreFeatureRuleTest.INSTANCE, EnchantedGemsModBlocks.TIGERS_EYE_ORE.get().defaultBlockState(), 4));
 		PLACED_FEATURE = PlacementUtils.register("enchanted_gems:tigers_eye_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(10), InSquarePlacement.spread(),
+				List.of(CountPlacement.of(3), InSquarePlacement.spread(),
 						HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(64)), BiomeFilter.biome()));
 		return FEATURE;
 	}

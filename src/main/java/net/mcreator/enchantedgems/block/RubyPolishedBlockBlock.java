@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class RubyPolishedBlockBlock extends Block {
 	public RubyPolishedBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(2.75f, 3f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.BONE_BLOCK).strength(2.75f, 3f).requiresCorrectToolForDrops());
 	}
 
 	@Override

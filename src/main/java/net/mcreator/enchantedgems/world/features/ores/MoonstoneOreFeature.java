@@ -44,10 +44,10 @@ public class MoonstoneOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new MoonstoneOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("enchanted_gems:moonstone_ore", FEATURE,
-				new OreConfiguration(MoonstoneOreFeatureRuleTest.INSTANCE, EnchantedGemsModBlocks.MOONSTONE_ORE.get().defaultBlockState(), 16));
+				new OreConfiguration(MoonstoneOreFeatureRuleTest.INSTANCE, EnchantedGemsModBlocks.MOONSTONE_ORE.get().defaultBlockState(), 7));
 		PLACED_FEATURE = PlacementUtils.register("enchanted_gems:moonstone_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(10), InSquarePlacement.spread(),
-						HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(64)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(3), InSquarePlacement.spread(),
+						HeightRangePlacement.uniform(VerticalAnchor.absolute(50), VerticalAnchor.absolute(128)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

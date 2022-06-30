@@ -24,7 +24,7 @@ import java.util.Collections;
 
 public class AmberBlockMosquitoeBlock extends Block {
 	public AmberBlockMosquitoeBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(1f, 10f).noOcclusion()
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.BONE_BLOCK).strength(1f, 10f).noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 	}
 

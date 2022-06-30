@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class AquamarinePolishedBlockBlock extends Block {
 	public AquamarinePolishedBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(2.65f, 1f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.BONE_BLOCK).strength(2.65f, 1f).requiresCorrectToolForDrops());
 	}
 
 	@Override

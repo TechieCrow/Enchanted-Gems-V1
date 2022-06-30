@@ -44,10 +44,10 @@ public class RubyOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new RubyOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("enchanted_gems:ruby_ore", FEATURE,
-				new OreConfiguration(RubyOreFeatureRuleTest.INSTANCE, EnchantedGemsModBlocks.RUBY_ORE.get().defaultBlockState(), 16));
+				new OreConfiguration(RubyOreFeatureRuleTest.INSTANCE, EnchantedGemsModBlocks.RUBY_ORE.get().defaultBlockState(), 6));
 		PLACED_FEATURE = PlacementUtils.register("enchanted_gems:ruby_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(10), InSquarePlacement.spread(),
-						HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(64)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(3), InSquarePlacement.spread(),
+						HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(0)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

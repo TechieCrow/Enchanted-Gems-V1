@@ -44,9 +44,9 @@ public class JadeOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new JadeOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("enchanted_gems:jade_ore", FEATURE,
-				new OreConfiguration(JadeOreFeatureRuleTest.INSTANCE, EnchantedGemsModBlocks.JADE_ORE.get().defaultBlockState(), 16));
+				new OreConfiguration(JadeOreFeatureRuleTest.INSTANCE, EnchantedGemsModBlocks.JADE_ORE.get().defaultBlockState(), 20));
 		PLACED_FEATURE = PlacementUtils.register("enchanted_gems:jade_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(10), InSquarePlacement.spread(),
+				List.of(CountPlacement.of(3), InSquarePlacement.spread(),
 						HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(64)), BiomeFilter.biome()));
 		return FEATURE;
 	}

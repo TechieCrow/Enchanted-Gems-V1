@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class SapphireBlockBlock extends Block {
 	public SapphireBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(2.75f, 3f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.BONE_BLOCK).strength(2.75f, 3f).requiresCorrectToolForDrops());
 	}
 
 	@Override
