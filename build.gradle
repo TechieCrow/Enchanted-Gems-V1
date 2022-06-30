@@ -11,8 +11,8 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 
 version = '1.0'
-group = 'com.yourname.modid'
-archivesBaseName = 'modid'
+group = 'com.chewablebliss.enchanted_gems'
+archivesBaseName = 'Enchanted_Gems'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
